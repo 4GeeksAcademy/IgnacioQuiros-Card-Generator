@@ -1,1 +1,75 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  aspect-ratio: 1 / 1.75;
+  border: 2px solid #000;
+  flex: 0 0 18%;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+p {
+  font-size: 1rem;
+}
+.icon {
+  font-size: 0.9rem;
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+  p {
+    font-size: 1.4rem;
+  }
+  .icon {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 18%;
+  }
+  p {
+    font-size: 1.9rem;
+  }
+  .icon {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1439px) {
+  .icon {
+    font-size: 4.5rem;
+  }
+  p {
+    font-size: 5rem;
+  }
+}
