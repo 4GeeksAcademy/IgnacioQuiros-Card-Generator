@@ -23,6 +23,8 @@ p {
 }
 .icon {
   font-size: 0.9rem;
+  margin-top: -5%;
+  margin-bottom: -5%;
 }
 
 /* Media queries */
